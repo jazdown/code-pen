@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background: $darkgrey;
+  background: $black;
   height: 600px;
   padding-top: 40px;
 }
@@ -57,7 +57,7 @@ nav ul li:hover > ul {
 }
 
 nav ul li:hover > a {
-  color: $white;
+  color: $blue;
 }
 nav > ul > li > a {
   cursor: pointer;
@@ -90,6 +90,7 @@ nav > ul li ul li > a {
 
 .list {
   list-style-type: none;
+  left: -50px;
 }
 
 [type="checkbox"], label {
@@ -97,19 +98,26 @@ nav > ul li ul li > a {
 }
 
 @media screen and (max-width: 768px) {
+  
   nav ul {
     display: none;
   }
 
   label {
     display: block;
-    background: $black;
+    background: $blue;
     width: 40px;
     height: 40px;
     cursor: pointer;
     position: absolute;
     right: 20px;
     top: 0px;
+    transition: all 3500ms linear ease-in-out;
+  }
+  
+  .list {
+    left: 10px;
+    color: $white;
   }
 
   label:after{
@@ -127,11 +135,11 @@ nav > ul li ul li > a {
     z-index: 9999;
     position: absolute;
     right: 0px;
-    left: 0px;
+    left: -40px;
   }
 
   nav a {
-    color: $darkgrey;
+    color: $black;
   }
 
   nav ul li {
@@ -139,7 +147,7 @@ nav > ul li ul li > a {
     float: none;
     width: 100%;
     text-align: left;
-    background: $darkgrey;
+    background: $white;
     text-indent: 20px;
   }
 
