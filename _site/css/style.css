@@ -55,6 +55,7 @@ nav ul li:hover {
   cursor: pointer;
   position: relative;
 }
+
 nav ul li:hover > ul {
   display: block;
 }
@@ -62,6 +63,7 @@ nav ul li:hover > ul {
 nav ul li:hover > a {
   color: #777;
 }
+
 nav > ul > li > a {
   cursor: pointer;
   display: block;
@@ -91,10 +93,6 @@ nav > ul li ul li > a {
   text-decoration: none;
 }
 
-.list {
-  list-style-type: none;
-}
-
 [type="checkbox"], label {
   display: none;
 }
@@ -103,7 +101,6 @@ nav > ul li ul li > a {
   nav ul {
     display: none;
   }
-
   label {
     display: block;
     background: #222;
@@ -114,17 +111,15 @@ nav > ul li ul li > a {
     right: 20px;
     top: 0px;
   }
-
-  label:after{
-    content:'';
+  label:after {
+    content: '';
     display: block;
     width: 30px;
     height: 5px;
     background: #777;
     margin: 7px 5px;
-    box-shadow: 0px 10px 0px #777, 0px 20px 0px #777
+    box-shadow: 0px 10px 0px #777, 0px 20px 0px #777;
   }
-
   [type="checkbox"]:checked ~ ul {
     display: block;
     z-index: 9999;
@@ -132,11 +127,9 @@ nav > ul li ul li > a {
     right: 20px;
     left: 20px;
   }
-
   nav a {
     color: #777;
   }
-
   nav ul li {
     display: block;
     float: none;
@@ -145,16 +138,13 @@ nav > ul li ul li > a {
     background: #222;
     text-indent: 20px;
   }
-
   nav > ul > li {
     margin-left: 0px;
   }
-
   nav > ul li ul li {
     display: block;
     float: none;
   }
-
   nav > ul li ul {
     display: block;
     position: relative;
@@ -162,8 +152,7 @@ nav > ul li ul li > a {
     z-index: 9999;
     float: none;
   }
-  
   h1 {
-    font-size: 32em;
+    font-size: 26px;
   }
 }
