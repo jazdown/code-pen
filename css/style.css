@@ -128,8 +128,8 @@ nav > ul li ul li > a {
     display: block;
     z-index: 9999;
     position: absolute;
-    right: 20px;
-    left: 20px;
+    right: 0px;
+    left: 0px;
   }
   nav a {
     color: #777;
@@ -158,5 +158,8 @@ nav > ul li ul li > a {
   }
   h1 {
     font-size: 32em;
+  }
+  .secondary {
+    left: 0;
   }
 }

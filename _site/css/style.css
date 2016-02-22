@@ -93,6 +93,10 @@ nav > ul li ul li > a {
   text-decoration: none;
 }
 
+.list {
+  list-style-type: none;
+}
+
 [type="checkbox"], label {
   display: none;
 }
@@ -153,6 +157,6 @@ nav > ul li ul li > a {
     float: none;
   }
   h1 {
-    font-size: 26px;
+    font-size: 32em;
   }
 }
